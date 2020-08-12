@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start -p 5000",
     "static-build": "next build && next export",
+    "postbuild": "next-on-netlify",
     "serve": "npx serve out/",
     "stylelint": "stylelint \"src/**/*.scss\" --fix",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx"
@@ -20,6 +21,7 @@
     "framer-motion": "^2.1.4",
     "gray-matter": "^4.0.2",
     "next": "9.4.4",
+    "next-on-netlify": "^2.3.2",
     "next-tinacms-github": "^0.26.0",
     "normalize-scss": "^7.0.1",
     "raw-loader": "^4.0.1",
