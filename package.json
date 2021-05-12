@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.20.3",
     "globby": "^11.0.1",
     "hygen-next-tinacms-github": "https://github.com/dwalkr/hygen-next-tinacms-github",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "postcss-loader": "^3.0.0",
     "prettier": "^2.0.5",
     "stylelint": "^13.6.1",
